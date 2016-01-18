@@ -1,0 +1,35 @@
+/* Pon tu código css aqui */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: content-box;
+}
+.grande{
+	border: 1px solid black;
+	
+
+}
+.chico{
+	width: 25%;
+	height: 100px;
+	float: left;
+}
+.uno{
+	background-color: yellow;
+
+
+}
+.dos{
+	background-color: blue;
+}
+.tres{
+	background-color: red;
+}
+.clearfix:before, .clearfix:after{
+	content: "";
+	display: table;
+}
+.clearfix:after{
+	clear: both;
+}
